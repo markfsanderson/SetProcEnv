@@ -13,7 +13,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 	{
 	    case DLL_PROCESS_ATTACH:
             OutputDebugString(L"DLL_PROCESS_ATTACH\n");
-            SetEnvironmentVariable(L"YourMama", L"Is One Ugly Aswang!");
+            SetEnvironmentVariable(L"YOURCOMPUTER", L"P0wned!");
             break;
 	    case DLL_THREAD_ATTACH:
             OutputDebugString(L"DLL_THREAD_ATTACH\n");
