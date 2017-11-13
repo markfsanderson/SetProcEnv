@@ -1,7 +1,7 @@
 # Description
 Set Process Environment Hack
 This initial add is the POC where I've proved that it works.  It's compiled to work with VS 2016 x64 and runs successfully on Windows 10.
-This hack does a very simple DLL injection technique via CreateRemoteThread.  
+This hack does a very simple DLL injection technique via CreateRemoteThread that will modify the targeted processes environment with a new name/value pair as a first demo.
 
 # Limitations
 * The injected DLL must be in the current directory or int he path of the program that is to be injected.
